@@ -4,11 +4,11 @@
 
 Clone repository on your computer
 
-```git clone https://github.com/LaurentLienhard/Docker.git C:\MyDev\Test```
+```https://github.com/LaurentLienhard/FusionSuite-Docker.git C:\MyDev\Test```
 
-Go to directory FS-MariaDB
+Go to directory FS-MariaDB-dev
 
-```cd C:\MyDev\Test\FusionSuite\FS-MariaDB\```
+```cd C:\MyDev\Test\FusionSuite-Docker\FS-MariaDB-dev\```
 
 and run
 
@@ -49,8 +49,8 @@ if you run ```docker ps``` you should see something like this
 
 ```text
 CONTAINER ID        IMAGE                                      COMMAND             CREATED             STATUS              PORTS                  NAMES
-100c54334138        laurentlienhard/fusionsuite-frontend:DEV   "./entrypoint.sh"   8 seconds ago       Up 7 seconds        0.0.0.0:8080->80/tcp   fs-mariadb_frontend_1
-f9422fb50171        laurentlienhard/fusionsuite-backend:DEV    "./entrypoint.sh"   8 seconds ago       Up 7 seconds        0.0.0.0:80->80/tcp     fs-mariadb_backend-mariadb_1
+100c54334138        laurentlienhard/fusionsuite-frontend:MARIADB-DEV   "./entrypoint.sh"   8 seconds ago       Up 7 seconds        0.0.0.0:8080->80/tcp   fs-mariadb_frontend_1
+f9422fb50171        laurentlienhard/fusionsuite-backend:MARIADB-DEV    "./entrypoint.sh"   8 seconds ago       Up 7 seconds        0.0.0.0:80->80/tcp     fs-mariadb_backend-mariadb_1
  ```
 
  ### _The container with name ```fs-mariadb_backend-mariadb_1``` is running ?_
