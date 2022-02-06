@@ -1,6 +1,0 @@
-FROM debian:bullseye
-
-COPY install.sh .
-RUN chmod +x ./install.sh && \
-./install.sh
-CMD [ "/bin/bash", "./install.sh" ]
