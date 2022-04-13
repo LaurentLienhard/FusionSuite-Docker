@@ -4,7 +4,7 @@
 
 Clone repository on your computer
 
-```https://github.com/LaurentLienhard/FusionSuite-Docker.git C:\MyDev\Test```
+```git clone https://github.com/LaurentLienhard/FusionSuite-Docker.git C:\MyDev\Test```
 
 Go to directory FS-MariaDB-dev
 
